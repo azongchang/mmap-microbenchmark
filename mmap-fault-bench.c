@@ -21,6 +21,8 @@
 #include <err.h>
 #include <unistd.h>
 #include <fcntl.h>
+#include <limits.h>
+#include <inttypes.h>
 #include <signal.h>
 
 struct bench_cfg {
